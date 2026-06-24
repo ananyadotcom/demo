@@ -1,0 +1,12 @@
+name: Reusable Build
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test
+        run: echo "Reusable workflow"

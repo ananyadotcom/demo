@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: production
+
+    steps:
+      - name: Use Secret
+        run: |
+          echo "Deploying"
+
+        env:
+          PROD_API_KEY: ${{ secrets.PROD_API_KEY }}

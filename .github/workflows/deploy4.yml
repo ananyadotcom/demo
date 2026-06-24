@@ -3,6 +3,8 @@ name: Production Deployment
 on:
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

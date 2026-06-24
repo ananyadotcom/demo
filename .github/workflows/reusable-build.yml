@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Test
-        run: echo "Reusable workflow"
+        run: echo "Reusable workflow version 2"

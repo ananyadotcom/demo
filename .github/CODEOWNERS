@@ -1,0 +1,8 @@
+# Workflow files
+.github/workflows/* @your-github-username
+
+# Infrastructure
+terraform/* @your-github-username
+
+# Infrastructure directory
+infrastructure/* @your-github-username

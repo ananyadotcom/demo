@@ -1,0 +1,8 @@
+# Workflow files
+.github/workflows/* @ananyadotcom
+
+# Infrastructure
+terraform/* @ananyadotcom
+
+# Infrastructure directory
+infrastructure/* @ananyadotcom

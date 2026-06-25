@@ -11,3 +11,7 @@ The system contains:
 ## Architecture Diagram
 
 Frontend -> API -> Database
+
+## Security Layer
+
+Authentication and authorization controls.

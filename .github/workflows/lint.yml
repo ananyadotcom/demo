@@ -21,3 +21,6 @@ jobs:
 
       - name: Run lint
         run: flake8 .
+
+permissions:
+  contents: read

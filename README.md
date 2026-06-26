@@ -20,3 +20,24 @@ Documentation reviewed and updated.
 ## AI-Assisted Documentation
 
 This section was added for governance testing.
+
+## AI Prompt
+
+Prompt:
+
+"Generate documentation describing repository governance."
+
+---
+
+## AI Output
+
+ChatGPT generated the initial documentation draft.
+
+The output was reviewed, edited, and approved by the repository owner before merge.
+
+---
+
+## AI Disclosure
+
+- [x] ChatGPT used
+- [ ] GitHub Copilot used
